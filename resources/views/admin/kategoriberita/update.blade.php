@@ -42,7 +42,7 @@
                                       <div class="form-group row">
                                         <div class="col-sm-9 ml-auto">
                                           <button type="cancel" class="btn btn-secondary">Cancel</button>
-                                          <button type="submit" class="btn btn-warning">Update</button>
+                                          <button type="submit" class="btn btn-warning" name="submit">Update</button>
                                         </div>
                                       </div>
                                 </form>

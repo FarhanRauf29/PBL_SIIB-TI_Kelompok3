@@ -49,6 +49,9 @@ class BarangController extends Controller
     public function edit($id)
     {
         $barangs = Barang::findOrFail($id);
+        $barang = Barang::findOrFail($id);
+        $ktg = KategoriBarang::all(); // Replace with your logic to fetch categories
+
         return view('admin.barang.update', compact('barangs'));
     }
 

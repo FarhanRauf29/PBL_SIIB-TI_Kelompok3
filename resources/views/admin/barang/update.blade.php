@@ -8,9 +8,9 @@
                 <div class="p-6 text-gray-900">
                     <h1 class="mb-0">Edit Barang</h1>
                     <hr />
-                    <p><a href="{{ route('admin/barangs') }}" class="btn btn-primary">Go Back</a></p>
+                    <p><a href="{{ route('admin/barang') }}" class="btn btn-primary">Go Back</a></p>
 
-                    <form action="{{ route('admin/barangs/update', $barangs->id) }}" method="POST">
+                    <form action="{{ route('admin/barang/update', $barangs->id) }}" method="POST">
                         @csrf
                         @method('PUT')
                         <div class="col-lg-12">

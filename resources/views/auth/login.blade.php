@@ -51,7 +51,7 @@
 										<input type="checkbox" name="remember" id="remember_me" class="form-check-input">
 										<label for="remember_me" class="form-check-label">Ingat Saya</label>
 									</div>
-									<button type="submit" class="btn btn-primary ms-auto">
+									<button type="submit" id ="btn-login" class="btn btn-primary ms-auto">
 										Masuk
 									</button>
 								</div>
@@ -66,7 +66,7 @@
 						</div>
 					</div>
 					<div class="text-center mt-5 text-muted">
-						Copyright &copy; 2024 &mdash; SIMLAB 
+						Copyright &copy; 2024 &mdash; SIMLAB
 					</div>
 				</div>
 			</div>
